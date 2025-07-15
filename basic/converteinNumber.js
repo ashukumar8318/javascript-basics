@@ -15,7 +15,7 @@ console.log(valueinNumber);
 //true => 1
 //"abc" => Nan
 
-let isloggedin = "abc"
+let isloggedin = true
 let chekedin = Boolean(isloggedin)
 
 console.log(typeof chekedin);
