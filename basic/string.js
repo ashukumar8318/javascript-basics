@@ -10,6 +10,11 @@ console.log(Name2.trim());
 
 console.log(Name.slice(0,3));
 
+let url = "http://ashukumar%20gmail.com";
+console.log( url.replace("%20","-"));
+
+
+
 
 
 
