@@ -5,5 +5,6 @@ let newNum = 25/3;
 console.log(newNum.toFixed(2));
 
 // ++++++++++ Maths +++++++
+console.log(maths);
 
 console.log(maths.abs(-6));
