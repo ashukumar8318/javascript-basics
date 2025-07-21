@@ -1,7 +1,7 @@
 const tinder = new Object();
 
 tinder.id =1;
-tinder,name = "Ashu";
+tinder.name = "Ashu";
 tinder.age = 25;
 tinder.isloggedIn = false;
 
@@ -24,3 +24,19 @@ const values = Object.values(obj3)
 console.log(keys);
 console.log(values);
 
+
+
+const course = {
+    name :"Javascript",
+    price : 299,
+    ispaid : true
+
+}
+
+
+const {name: laungage } = course 
+//you can call like this also  
+//console.log(name);
+
+// if u assigned diffrent name then u can call  like this also
+console.log(laungage);
